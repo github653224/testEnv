@@ -1,0 +1,8 @@
+Package    Version
+---------- -------
+pip        20.3.3
+selenium   3.141.0
+setuptools 51.0.0
+urllib3    1.26.2
+wheel      0.36.1
+xlrd       2.0.1
