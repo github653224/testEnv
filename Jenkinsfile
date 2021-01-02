@@ -8,7 +8,7 @@ pipeline{
           sh 'python -m pip install --upgrade pip'
         }
       }
-      steps{
+       steps{
           sh 'pip -V'
           sh 'pip install -r requiments'
           sh 'python openWebSite.py'
