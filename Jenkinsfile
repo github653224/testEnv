@@ -3,8 +3,13 @@ pipeline{
   stages{
     stage('try to get python env'){
       steps{
-        sh 'workon uitest_env_3.7.9'
-        sh 'pip list'
+         withPythonEnv('/Users/mac/.virtualenvs/uitest_env_3.7.9/bin/python'){
+          sh 'pip list'
+          sh 'pip -V'
+          sh 'python -V'
+          
+         
+        }
       }
     
     }
