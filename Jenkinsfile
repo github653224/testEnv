@@ -8,6 +8,7 @@ pipeline{
           sh 'pip -V'
           sh 'python -m pip list'
           sh 'pwd'
+          sh 'python openWebSite.py'
           
          
         }
